@@ -1,0 +1,8 @@
+python -m venv ./venv --prompt chatbot
+venv\Scripts\activate
+pip install Flask
+python -m pip install chatterbot==1.0.4 pytz
+python app.py
+(make changes in compat.py (link will be shown), change time.clock ke jagah time.time)
+python app.py
+Ctrl+C to exit
