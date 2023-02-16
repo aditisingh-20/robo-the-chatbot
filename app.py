@@ -14,4 +14,4 @@ def get_bot_response():
     return str(chatbot.get_response(userText))
 
 if __name__ == "__main__":
-    app.run() 
+    app.run(debug=True) 
